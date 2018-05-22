@@ -8,7 +8,19 @@ $first_name = 'tunde';
 
 $surname = 'Enakele';
 
+$year_of_birth = 1981;
+
 $height = 186;
+
+define('SERVER_SOFTWARE', 'Apache');
+
+$first_name_int = (integer)$first_name;
+var_dump($first_name_int);
+echo '<br>';
+
+$first_name_bool = (boolean)$first_name;
+var_dump($first_name_bool);
+echo '<br>';
 
 ?>
 
