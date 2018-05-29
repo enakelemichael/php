@@ -9,18 +9,17 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="">
     </head>
     <body>
+<form action="Welcome.php" method></form>
 
-    <h1>A git status</h1>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-        <footer>
-    &copy; <?php echo date('Y'); ?> The spectacular me
-</footer>
     </body>
 </html>
+
+<!--<form action="welcome.php" method="post" enctype="multipart/form-data">
+Name:<input type="text" name="fname"/>
+Age:<input type="text" name="age"/>
+<input type="file" name="fileToUpload"/><br>
+<input type="submit"/>
+</form>
